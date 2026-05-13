@@ -7,7 +7,7 @@ async function sendCommand() {
   status.innerText = "Sending...";
 
   try {
-    const res = await fetch("https://YOUR-BACKEND.onrender.com/send", {
+    const res = await fetch("https://mczie-tools.onrender.com/send", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
